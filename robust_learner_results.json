@@ -1,0 +1,55 @@
+{
+  "Clean_Data_Evaluation": [
+    {
+      "Model": "Median-Based Robust Learner",
+      "Accuracy": 0.7747875354107648,
+      "Precision": 0.7647058823529411,
+      "Recall": 0.697560975609756,
+      "F1-Score": 0.7295918367346939,
+      "ROC-AUC": 0.8412624577939631
+    },
+    {
+      "Model": "Standard SVM",
+      "Accuracy": 0.8208215297450425,
+      "Precision": 0.8364312267657993,
+      "Recall": 0.7317073170731707,
+      "F1-Score": 0.7805724197745013,
+      "ROC-AUC": 0.8945068396731646
+    }
+  ],
+  "Robustness_Evaluation": {
+    "Median_Based_Robust_Learner": {
+      "Accuracy_Clean": 0.7747875354107648,
+      "Accuracy_Corrupted": 0.7393767705382436,
+      "Robustness_Score": 0.03541076487252126
+    },
+    "Standard_SVM": {
+      "Accuracy_Clean": 0.8208215297450425,
+      "Accuracy_Corrupted": 0.7889518413597734,
+      "Robustness_Score": 0.03186968838526916
+    }
+  },
+  "Multiple_Outlier_Levels": {
+    "Outlier_Fractions": [
+      0.0,
+      0.05,
+      0.1,
+      0.15,
+      0.2
+    ],
+    "Median_Based_Accuracy": [
+      0.7747875354107648,
+      0.7563739376770539,
+      0.7415014164305949,
+      0.7379603399433428,
+      0.7145892351274787
+    ],
+    "SVM_Accuracy": [
+      0.8208215297450425,
+      0.8016997167138811,
+      0.796742209631728,
+      0.7769121813031161,
+      0.7754957507082153
+    ]
+  }
+}
