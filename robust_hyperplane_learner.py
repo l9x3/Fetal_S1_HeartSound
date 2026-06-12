@@ -9,6 +9,7 @@ Author: Robust ML Team
 Date: 2024
 """
 
+import json
 import numpy as np
 import pandas as pd
 from sklearn.model_selection import train_test_split
@@ -114,7 +115,7 @@ class MedianBasedRobustHyperplane:
         mae = np.median(np.abs(errors))
         
         # Robust loss: minimize median of absolute errors
-        loss = np.median(np.abs(errors)) + self.regularization * np.sum(w ** 2)
+        loss = mae + self.regularization * np.sum(w ** 2)
         
         return loss
     
@@ -660,7 +661,6 @@ def main():
     }
     
     # Save results to file
-    import json
     with open('/home/runner/work/Fetal_S1_HeartSound/Fetal_S1_HeartSound/l9x3/Fetal_S1_HeartSound/robust_learner_results.json', 'w') as f:
         json.dump(results_output, f, indent=2, default=str)
     print("✓ Detailed results saved to: robust_learner_results.json")
