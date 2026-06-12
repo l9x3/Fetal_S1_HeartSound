@@ -1,0 +1,20 @@
+{
+  "Original_Baseline": 0.7747875354107648,
+  "Best_Model": "Standard SVM",
+  "Best_Accuracy": 0.8208215297450425,
+  "SVM_Baseline": 0.8208215297450425,
+  "All_Results": {
+    "Original Baseline": 0.7747875354107648,
+    "Enhanced + Normalization": 0.7655807365439093,
+    "Enhanced + 15 Iterations": 0.7655807365439093,
+    "Enhanced + Welsch Weights": 0.7655807365439093,
+    "Enhanced + Andrews Weights": 0.7655807365439093,
+    "Enhanced + PCA (0.95)": 0.7514164305949008,
+    "Standard SVM": 0.8208215297450425
+  },
+  "Improvements": {
+    "vs_original_percent": 4.603399433427768,
+    "vs_svm_percent": 0.0,
+    "total_improvement_from_start": 4.603399433427768
+  }
+}

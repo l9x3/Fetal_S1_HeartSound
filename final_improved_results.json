@@ -1,0 +1,22 @@
+{
+  "Original_Median": 0.7740793201133145,
+  "Best_Improved": "Original",
+  "Best_Accuracy": 0.7740793201133145,
+  "SVM_Baseline": 0.8208215297450425,
+  "All_Results": {
+    "Original": 0.7740793201133145,
+    "Feature Selection": 0.7669971671388102,
+    "Threshold Optimization": 0.7662889518413598,
+    "Combined Improvements": 0.7436260623229461,
+    "SVM Baseline": 0.8208215297450425
+  },
+  "Improvements": {
+    "vs_original_percent": 0.0,
+    "vs_svm_percent": -4.674220963172804
+  },
+  "Strategies_Applied": [
+    "Robust feature selection (Spearman correlation)",
+    "Decision threshold optimization",
+    "Class weighting for imbalanced data"
+  ]
+}
