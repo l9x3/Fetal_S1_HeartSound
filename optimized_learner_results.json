@@ -1,0 +1,19 @@
+{
+  "Original_Median": 0.7747875354107648,
+  "Best_Model": "Standard SVM",
+  "Best_Accuracy": 0.8208215297450425,
+  "SVM_Baseline": 0.8208215297450425,
+  "Key_Results": {
+    "Hybrid (Median+SVM)": 0.7507082152974505,
+    "Standard SVM": 0.8208215297450425,
+    "Original Median": 0.7747875354107648
+  },
+  "Improvements": {
+    "vs_original_percent": 4.603399433427768,
+    "vs_svm_percent": 0.0
+  },
+  "Best_Hyperparameters": {
+    "blend_ratio": 0.3,
+    "regularization": 0.0001
+  }
+}
